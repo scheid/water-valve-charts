@@ -1,0 +1,77 @@
+
+.test {
+    color: #ba21d4;
+}
+
+body {
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding: 50px;
+}
+
+h1, h2 {
+    font-weight: normal;
+    color: #333333;
+}
+
+.node-label {
+    font-size:smaller;
+    color: #333333;
+    text-anchor: middle;
+}
+
+.group-item {
+    
+}
+
+.group-item:hover {
+   
+}
+
+.group-item-actionable {
+    cursor: pointer;
+}
+
+.group-item-actionable:hover {
+ fill: #8bceff;
+    stroke: #3484d2;
+}
+
+
+
+.item-actionable {
+    cursor: pointer;
+}
+
+.item-actionable:hover {
+ fill: #8bceff;
+    stroke: #3484d2;
+}
+
+
+p {
+    color: #333333;
+}
+
+code {
+    font-size: larger;
+    color: #d57842;
+}
+
+.group-actionable {
+    cursor: pointer;
+
+}
+
+.group-shape {
+    stroke: #dedede;
+    fill: white;
+
+}
+
+.group-actionable:hover > .group-shape {
+    fill: blue;
+    
+}
+
+
+       
