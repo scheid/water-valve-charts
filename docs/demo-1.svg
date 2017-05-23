@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<?xml-stylesheet type="text/css" href="demo.css"?>
+<defs>
+ <style type="text/css"><![CDATA[
+    
+text {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.node-label {
+    font-size:smaller;
+    color: #333333;
+    text-anchor: middle;
+}
+
+.group-item {
+    
+}
+
+.group-item:hover {
+   
+}
+
+.group-item-actionable {
+    cursor: pointer;
+}
+
+.group-item-actionable:hover {
+ fill: #8bceff;
+    stroke: #3484d2;
+}
+
+
+
+.item-actionable {
+    cursor: pointer;
+}
+
+.item-actionable:hover {
+ fill: #8bceff;
+    stroke: #3484d2;
+}
+
+
+.group-actionable {
+    cursor: pointer;
+
+}
+
+.group-shape {
+    stroke: #dedede;
+    fill: white;
+
+}
+
+.group-actionable:hover > .group-shape {
+    fill: blue;
+    
+}
+ ]]></style>
+  </defs>
 
 <svg  xmlns="http://www.w3.org/2000/svg" width="280" height="280"><defs><marker id="end" viewBox="0 -15 30 30" refX="43" refY="0" markerWidth="6" markerHeight="6" orient="auto"><path fill="#acacac" d="M0,-10L25,0L0,10"></path></marker></defs><g class="group" transform="translate(40,140)"><rect class="group-shape" x="0" y="-100" width="200" height="200" rx="7" ry="7"></rect><path d="M66.66666666666667,0C100,0 100,0 133.33333333333334,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C33.333333333333336,0 33.333333333333336,0 66.66666666666667,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C33.333333333333336,0 33.333333333333336,0 66.66666666666667,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M133.33333333333334,0C166.66666666666669,0 166.66666666666669,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M133.33333333333334,0C166.66666666666669,0 166.66666666666669,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><circle class="group-item" cx="0" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><circle class="group-item" cx="66.66666666666667" cy="0" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="133.33333333333334" cy="0" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="200" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><text class="node-label" x="0" y="-10" transform=""></text><text class="node-label" x="66.66666666666667" y="-10" transform="">A</text><text class="node-label" x="133.33333333333334" y="-10" transform="">B</text><text class="node-label" x="200" y="-10" transform=""></text></g></svg>
