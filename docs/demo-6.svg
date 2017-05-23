@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg  xmlns="http://www.w3.org/2000/svg" width="1080" height="280">
+ 
+ <style type="text/css">
+    <![CDATA[
+text {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.node-label {
+    font-size:smaller;
+    color: #333333;
+    text-anchor: middle;
+}
+
+.group-item {
+    
+}
+
+.group-item:hover {
+   
+}
+
+.group-item-actionable {
+    cursor: pointer;
+}
+
+.group-item-actionable:hover {
+ fill: #8bceff;
+    stroke: #3484d2;
+}
+
+
+
+.item-actionable {
+    cursor: pointer;
+}
+
+.item-actionable:hover {
+ fill: #8bceff;
+    stroke: #3484d2;
+}
+
+
+.group-actionable {
+    cursor: pointer;
+
+}
+
+.group-shape {
+    stroke: #dedede;
+    fill: white;
+
+}
+
+.group-actionable:hover > .group-shape {
+    fill: blue;
+    
+}
+ ]]>
+</style>
+ 
+<defs><marker id="end" viewBox="0 -15 30 30" refX="43" refY="0" markerWidth="6" markerHeight="6" orient="auto"><path fill="#acacac" d="M0,-10L25,0L0,10"></path></marker></defs><g class="group" transform="translate(40,140)"><rect class="group-shape" x="0" y="-100" width="200" height="200" rx="7" ry="7"></rect><path d="M0,0C50,0 50,0 100,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,0C150,0 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,0 100,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,0C150,0 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><circle class="group-item" cx="0" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><circle class="group-item" cx="100" cy="0" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="200" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><text class="node-label" x="0" y="-10" transform=""></text><text class="node-label" x="100" y="-10" transform="">A</text><text class="node-label" x="200" y="-10" transform=""></text></g><g class="group" transform="translate(240,140)"><rect class="group-shape" x="0" y="-100" width="200" height="200" rx="7" ry="7"></rect><path d="M0,0C25,0 25,0 50,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M50,0C75,0 75,33.33333333333334 100,33.33333333333334" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C25,0 25,0 50,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C25,0 25,0 50,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C25,0 25,0 50,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M50,0C75,0 75,-33.33333333333333 100,-33.33333333333333" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,-33.33333333333333C125,-33.33333333333333 125,0 150,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M50,0C75,0 75,33.33333333333334 100,33.33333333333334" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,33.33333333333334C125,33.33333333333334 125,0 150,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M150,0C175,0 175,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M150,0C175,0 175,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M150,0C175,0 175,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M150,0C175,0 175,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><circle class="group-item" cx="0" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><circle class="group-item" cx="50" cy="0" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="100" cy="-33.33333333333333" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="100" cy="33.33333333333334" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="150" cy="0" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="200" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><text class="node-label" x="0" y="-10" transform=""></text><text class="node-label" x="50" y="-10" transform="">B</text><text class="node-label" x="100" y="-43.33333333333333" transform="">M</text><text class="node-label" x="100" y="23.333333333333343" transform="">N</text><text class="node-label" x="150" y="-10" transform="">Z</text><text class="node-label" x="200" y="-10" transform=""></text></g><g class="group" transform="translate(440,140)"><rect class="group-shape" x="0" y="-100" width="200" height="200" rx="7" ry="7"></rect><path d="M0,0C50,0 50,-50 100,-50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,-50C150,-50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,-50 100,-50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,-50C150,-50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,-50 100,-50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,-50C150,-50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,-50 100,-50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,-50C150,-50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C40,0 40,0 80,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M80,0C100,0 100,0 120,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C40,0 40,0 80,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M80,0C100,0 100,0 120,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C40,0 40,0 80,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M80,0C100,0 100,0 120,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C40,0 40,0 80,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M80,0C100,0 100,0 120,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M120,0C160,0 160,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M120,0C160,0 160,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M120,0C160,0 160,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M120,0C160,0 160,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,50 100,50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,50C150,50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,50 100,50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,50C150,50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,50 100,50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,50C150,50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,50 100,50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,50C150,50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><circle class="group-item" cx="0" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><circle class="group-item" cx="100" cy="-50" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="80" cy="0" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="120" cy="0" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="100" cy="50" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="200" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><text class="node-label" x="0" y="-10" transform=""></text><text class="node-label" x="100" y="-60" transform="">E</text><text class="node-label" x="80" y="-10" transform="">P</text><text class="node-label" x="120" y="-10" transform="">Q</text><text class="node-label" x="100" y="40" transform="">S</text><text class="node-label" x="200" y="-10" transform=""></text></g><g class="group" transform="translate(640,140)"><rect class="group-shape" x="0" y="-100" width="200" height="200" rx="7" ry="7"></rect><path d="M0,0C50,0 50,0 100,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,0C150,0 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,0 100,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,0C150,0 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><circle class="group-item" cx="0" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><circle class="group-item" cx="100" cy="0" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="200" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><text class="node-label" x="0" y="-10" transform=""></text><text class="node-label" x="100" y="-10" transform="">F</text><text class="node-label" x="200" y="-10" transform=""></text></g><g class="group" transform="translate(840,140)"><rect class="group-shape" x="0" y="-100" width="200" height="200" rx="7" ry="7"></rect><path d="M0,0C50,0 50,-50 100,-50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,-50C150,-50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,-50 100,-50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,-50C150,-50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,-50 100,-50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,-50C150,-50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,0 100,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,0C150,0 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,0 100,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,0C150,0 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,0 100,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,0C150,0 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,50 100,50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,50C150,50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,50 100,50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,50C150,50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M0,0C50,0 50,50 100,50" stroke="#cacaca" stroke-width="2" fill="none"></path><path d="M100,50C150,50 150,0 200,0" stroke="#cacaca" stroke-width="2" fill="none"></path><circle class="group-item" cx="0" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><circle class="group-item" cx="100" cy="-50" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="100" cy="0" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="100" cy="50" r="8" fill="#ffffff" stroke="#999999" stroke-width="2"></circle><circle class="group-item" cx="200" cy="0" r="3" fill="#dedede" stroke="#dedede" stroke-width="2"></circle><text class="node-label" x="0" y="-10" transform=""></text><text class="node-label" x="100" y="-60" transform="">G</text><text class="node-label" x="100" y="-10" transform="">H</text><text class="node-label" x="100" y="40" transform="">I</text><text class="node-label" x="200" y="-10" transform=""></text></g></svg>
