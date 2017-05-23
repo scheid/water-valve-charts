@@ -53,84 +53,84 @@ The data shown in these examples use simple alpha-numeric characters as the elem
 There are a few quirks currently. For the outermost array, you should always use "and" as the operator.
 
 For the statement (A AND B) , the input data structure would be
-`
-[
-   "and",
-   [
-      "and",
-      "A",
-      "B"
-   ]
-]
-`
+
+    [
+       "and",
+       [
+          "and",
+          "A",
+          "B"
+       ]
+    ]
+
 
 For the statement (A OR B) , the input data structure would be
-`
-[
-   "and",
-   [
-      "or",
-      "A",
-      "B"
-   ]
-]
-`
+
+    [
+       "and",
+       [
+          "or",
+          "A",
+          "B"
+       ]
+    ]
+
 
 For the statement (A OR B OR (C AND D AND E)) , the input data structure would be
-`
-[
-   "and",
-   [
-      "or",
-      "A",
-      "B",
-      [
-         "and",
-         "C",
-         "D",
-         "E"
-      ]
-   ]
-]
-`
+
+    [
+       "and",
+       [
+          "or",
+          "A",
+          "B",
+          [
+             "and",
+             "C",
+             "D",
+             "E"
+          ]
+       ]
+    ]
+
 
 To create diagram xxxx, the following data is used as input:
-`
-[
-   "and",
-   [
-      "or",
-      {
-         "id": 1,
-         "label": "Rule 1",
-         "ruleResult": true
-      },
-      {
-         "id": 2,
-         "label": "Rule 2",
-         "ruleResult": true
-      },
-      [
-         "and",
-         {
-            "id": 3,
-            "label": "Rule 3",
-            "ruleResult": false
-         },
-         {
-            "id": 4,
-            "label": "Rule 4",
-            "ruleResult": false
-         },
-         {
-            "id": 5,
-            "label": "Rule 5",
-            "ruleResult": false
-         }
-      ]
-   ]
-]
-`
+
+    [
+       "and",
+       [
+          "or",
+          {
+             "id": 1,
+             "label": "Rule 1",
+             "ruleResult": true
+          },
+          {
+             "id": 2,
+             "label": "Rule 2",
+             "ruleResult": true
+          },
+          [
+             "and",
+             {
+                "id": 3,
+                "label": "Rule 3",
+                "ruleResult": false
+             },
+             {
+                "id": 4,
+                "label": "Rule 4",
+                "ruleResult": false
+             },
+             {
+                "id": 5,
+                "label": "Rule 5",
+                "ruleResult": false
+             }
+          ]
+       ]
+    ]
+
 
 In addition to the simple characters used in these examples, you could use any type of object with any combination of fields, etc. that you wish for each element. The structure below shows an expanded structure of the above data.
 
@@ -143,6 +143,6 @@ The graph can also be oriented vertically, with a simple configuration setting, 
 
 ## Alternate Node Rendering
 
-This illustrates that the nodes can be anything you wish. The WVC calculatest the coordinates of the various entities and you can tailor your d3js code to render those coordinates in many different ways.
+This illustrates that the nodes can be anything you wish. The WVC calculates the coordinates of the various entities and you can tailor your d3js code to render those coordinates in many different ways.
 
 ![](./demo-9.svg?raw=true)
