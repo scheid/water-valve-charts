@@ -4,4 +4,4 @@ Water Valve Chart (WVC) visualizes logical relationships, and is capable of repr
 side and progresses across. The flow could also start at the top and progress downward.
 
 
-!(./demo-1.svg)
+!(https://github.com/scheid/water-valve-charts/blob/master/docs/demo-1.svg)
