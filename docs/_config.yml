@@ -1,3 +1,14 @@
+---
 theme: jekyll-theme-cayman
 title: Water Valve Charts
 description: A type of flow chart that can display very complex logical relationships in an easily interpretable form
+---
+
+This is my page content.
+
+
+Water Valve Chart (WVC) visualizes logical relationships, and is capable of representing
+        very complex sets of logical statements pictorially.  The flow starts at one
+side and progresses across. The flow could also start at the top and progress downward.
+
+
