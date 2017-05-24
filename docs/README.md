@@ -4,25 +4,30 @@ Water Valve Chart (WVC) visualizes logical relationships, and is capable of repr
 
 
 This example illustrates the statement `A AND B`. Using the analogy of water and gates/locks, both A and B must be open (true) in order for the water to flow through. If you keep this water analogy in mind, even the complex graphs are much easier to understand than the same logic represented in more traditional text based methods.
+
 ![](./demo-1.svg?raw=true)
 
 
 
 This example illustrates the statement `A OR B`. Coming into the block, the "water" splits to flow to both the A and B gates. If either A or B is open (true), then the "water" will flow to the other side of the graph.
+
 ![](./demo-2.svg?raw=true)
 
 
 
 Getting progressively more complex, this graph represents `(A OR (B AND C))` . The flow can either go through A to reach the other side of the graph, or both B and C need to be open in order for the flow to take that route.
+
 ![](./demo-3.svg?raw=true)
 
 
 Continuing, this represents `(A OR B OR (C AND D AND E))` .
+
 ![](./demo-4.svg?raw=true)
 
 
 
 This shows the same graph as above, with the execution path highlighted.
+
 ![](./demo-5.svg?raw=true)
 
 
