@@ -40,7 +40,7 @@ Multiple blocks/groups can be joined together as well, to better represent disti
 
 
 
-It is also possible to display evaluation results for each of the nodes, whether each was true or false. The WVC code does not inherently do this, because its job is to calculate the layout data, not how to display it. With the code you are writing that uses the WVC data, you can easily create a display as shown below, using whatever shapes and styles are appropriate for your display.
+It is also possible to display evaluation results for each of the nodes, whether each was true or false. You can easily create a display as shown below, using whatever shapes and styles are appropriate for your display. To enable this, you must include a boolean field that describes the evaluation result of each individual item/object in the chart, whether it is true or false (e.g., whether the valve would be open or closed, respectively, to maintain the analogy). In the water valve configuration, set highlightExecutionPath to true, and set evaluationResultField to the name of the field containing the evaluation result for each of the individual items.
 
 `A AND (B AND (M OR N) AND Z) AND (E OR (P AND Q) OR S) AND F AND (G OR H OR I)`
 
